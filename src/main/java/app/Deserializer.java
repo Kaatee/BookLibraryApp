@@ -38,4 +38,8 @@ public class Deserializer {
     private static void setBooksList(BookToDeserialize booksList) {
         Deserializer.booksList = booksList;
     }
+
+    public static ObjectMapper getMapper() {
+        return mapper;
+    }
 }
