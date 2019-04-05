@@ -1,0 +1,259 @@
+{
+ "requestedUrl": "https://www.googleapis.com/books/v1/volumes?q=java&maxResults=40",
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "mVNjAgAAQBAJ",
+   "etag": "hYyTNTIiaXA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mVNjAgAAQBAJ",
+   "volumeInfo": {
+    "title": "Java. Techniki zaawansowane. Wydanie IX",
+    "authors": [
+     "Cay S. Horstmann",
+     "Gary Cornell"
+    ],
+    "publisher": "Helion",
+    "publishedDate": "2013-12-09",
+    "description": "Dziewiąte ...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9788324677658"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "8324677658"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 992,
+    "printType": "BOOK",
+    "categories": [
+     "Java",
+     "Computers",
+     "Test"
+    ],
+    "averageRating": 3.0,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "pl",
+    "previewLink": "http://books.google.pl/books?id=mVNjAgAAQBAJ&printsec=frontcover&dq=java&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=mVNjAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-mVNjAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "PL",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 119.0,
+     "currencyCode": "PLN"
+    },
+    "retailPrice": {
+     "amount": 83.3,
+     "currencyCode": "PLN"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=mVNjAgAAQBAJ&rdid=book-mVNjAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.19E8,
+       "currencyCode": "PLN"
+      },
+      "retailPrice": {
+       "amountInMicros": 8.33E7,
+       "currencyCode": "PLN"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "PL",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.pl/books/download/Java_Techniki_zaawansowane_Wydanie_IX-sample-epub.acsm?id=mVNjAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.pl/books/download/Java_Techniki_zaawansowane_Wydanie_IX-sample-pdf.acsm?id=mVNjAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=mVNjAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Dziewiąte wydanie bestsellerowej pozycji Java."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Ql6QgWf6i7cC",
+   "etag": "2ASKP5AksJw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Ql6QgWf6i7cC",
+   "volumeInfo": {
+    "title": "Thinking in Java",
+    "authors": [
+     "Bruce Eckel"
+    ],
+    "publisher": "Prentice Hall Professional",
+    "publishedDate": "2003",
+    "description": "An overview of the programming language's fundamentals covers syntax, initialization, implementation, classes, error handling, objects, applets, multiple threads, projects, and network programming.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0131002872"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780131002876"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 1119,
+    "printType": "BOOK",
+    "categories": [
+     "Computers",
+     "Java"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 33,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.2.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Ql6QgWf6i7cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Ql6QgWf6i7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.pl/books?id=Ql6QgWf6i7cC&printsec=frontcover&dq=java&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.pl/books?id=Ql6QgWf6i7cC&dq=java&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Thinking_in_Java.html?hl=&id=Ql6QgWf6i7cC"
+   },
+   "saleInfo": {
+    "country": "PL",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "PL",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Ql6QgWf6i7cC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Bruce Eckel&#39;s &quot;Thinking in Java— demonstrates advanced topics.Explains sound object-oriented principles as they apply to Java.Hands-on Java CD available online, with 15 hours of lectures and slides by Bruce Eckel.Live seminars, consulting ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "7tkN1CYzn2cC",
+   "etag": "pfjjxSpetIM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/7tkN1CYzn2cC",
+   "volumeInfo": {
+    "title": "A Hypervista of the Java Landscape",
+    "authors": [
+     "Bruce Eckel"
+    ],
+    "publisher": "InfoStrategist.com",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781592432172"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1592432174"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 3.5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.0.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=7tkN1CYzn2cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=7tkN1CYzn2cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.pl/books?id=7tkN1CYzn2cC&pg=PP1&dq=java&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.pl/books?id=7tkN1CYzn2cC&dq=java&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_Hypervista_of_the_Java_Landscape.html?hl=&id=7tkN1CYzn2cC"
+   },
+   "saleInfo": {
+    "country": "PL",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "PL",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.pl/books/download/A_Hypervista_of_the_Java_Landscape-sample-epub.acsm?id=7tkN1CYzn2cC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.pl/books/download/A_Hypervista_of_the_Java_Landscape-sample-pdf.acsm?id=7tkN1CYzn2cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=7tkN1CYzn2cC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Test Title",
+    "authors": [
+     "Gary Cornell"
+    ],
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "1234"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2345"
+     }
+    ]
+   }
+
+  }
+ ]
+}

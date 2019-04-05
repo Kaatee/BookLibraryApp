@@ -10,12 +10,14 @@ import java.io.IOException;
 import java.net.URI;
 
 public class Main {
+    public static String PATH;
     /**
      * Main class of program. Runs server
      * @param args
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
+        PATH = "C:\\Users\\Kasia\\Desktop\\BookLibratyApp\\src\\main\\java\\app\\books.json";
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8000).build();
         ResourceConfig config = new ResourceConfig(BookDetailsResource.class);
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);

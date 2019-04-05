@@ -11,17 +11,20 @@ import java.io.IOException;
 public class Deserializer {
     private static Deserializer instance;
     public static ObjectMapper mapper;
+    private String path;
     private static BookToDeserialize booksList;
 
-    private Deserializer(){}
+    private Deserializer(String path){
+        this.path = path;
+    }
 
-    public static synchronized Deserializer getInstance() throws IOException {
+    public static synchronized Deserializer getInstance(String path) throws IOException {
         if (instance == null) {
-            instance = new Deserializer();
+            instance = new Deserializer(path);
 
             instance.mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             instance.mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-            instance.booksList = mapper.readValue(new File(Constants.PATH), BookToDeserialize.class);
+            instance.booksList = mapper.readValue(new File(instance.path), BookToDeserialize.class);
         }
 
         return instance;

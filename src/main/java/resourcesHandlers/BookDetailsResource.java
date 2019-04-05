@@ -1,12 +1,11 @@
 package resourcesHandlers;
 
+import app.Constants;
 import app.Deserializer;
+import app.Main;
 import model.BookToDeserialize;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import java.io.IOException;
 
 @Path("/book/{isbn}")
@@ -26,14 +25,14 @@ public class BookDetailsResource {
         String books = "abc";
 
         try {
-            deserializer = Deserializer.getInstance();
+            deserializer = Deserializer.getInstance(Main.PATH);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         booksList = deserializer.getBooksList();
         //System.out.println("Dlugosc listy: " + booksList.getItems().length);
-
+        //throw new WebApplicationException(400);
         return books;
     }
 }
