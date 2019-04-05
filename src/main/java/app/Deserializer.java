@@ -39,6 +39,10 @@ public class Deserializer {
         Deserializer.booksList = booksList;
     }
 
+    public static void deleteInstance() {
+        Deserializer.instance = null;
+    }
+
     public static ObjectMapper getMapper() {
         return mapper;
     }

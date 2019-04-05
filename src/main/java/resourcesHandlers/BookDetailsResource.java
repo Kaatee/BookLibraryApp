@@ -53,7 +53,7 @@ public class BookDetailsResource {
         }
 
         if(result.equals("")){
-            Response response = Response.status(404).type(Constants.PLAIN_TEXT).entity("No result found").
+            Response response = Response.status(404).type(Constants.PLAIN_TEXT).entity(Constants.NO_RESULT_FOUND).
                     header("yourHeaderName", "yourHeaderValue").build();
             return response;
         }

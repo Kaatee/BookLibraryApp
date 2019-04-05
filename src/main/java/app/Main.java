@@ -17,7 +17,7 @@ public class Main {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        PATH = "C:\\Users\\Kasia\\Desktop\\BookLibratyApp\\src\\main\\java\\app\\books.json";
+        PATH = "C:\\Users\\Kasia\\Desktop\\BookLibraryApp\\BookLibraryApp\\src\\main\\java\\app\\books.json";
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8000).build();
         ResourceConfig config = new ResourceConfig(BookDetailsResource.class);
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
