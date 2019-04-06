@@ -1,14 +1,14 @@
-#BookLibraryApp
+# BookLibraryApp
 
 The main goal of this project was build the system backed by a WEB API that will provide several endpoints and serve the relevant information based on data read from a JSON file.
 
-###1. http://localhost:8000/book/{isbnNumber}
+### 1. http://localhost:8000/book/{isbnNumber}
 Expose the endpoint which allows reading details about a book. It will return a book identified by the given ISBN number in the form of a JSON document or return a 404 "No results found" if the book does not exist in the data set.
 
-###2. http://localhost:8000/category/{categoryName}
+### 2. http://localhost:8000/category/{categoryName}
 Create an endpoint that will list all books that are assigned to the requested category (empty list if no books belong to the category).
 
-###3. http://localhost:8000/rating
+### 3. http://localhost:8000/rating
 Lists all authors and their rating in descending order of the average rating of their books. If a book is not rated, it is not be taken into account in the calculation of its author rating.
 
 ## Description of the application framework that have beed used

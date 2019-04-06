@@ -6,39 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb38167-683a-45b3-9aab-58bf1fbd0de0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookLibraryApp_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookLibraryApp_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookLibraryApp_jar/BookLibraryApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookLibraryApp_jar/BookLibraryApp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/InstanceMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/InstanceMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/booksTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/booksTest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Deserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Deserializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BookToDeserialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BookToDeserialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/BookToSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/BookToSerialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ImageLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ImageLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/IndustryIdentifiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/IndustryIdentifiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/RatingToSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/RatingToSerialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/VolumeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/VolumeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/BookDetailsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/BookDetailsResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/CategoryResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/CategoryResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/app/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/app/DeserializerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app/DeserializerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/app/InstanceMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app/InstanceMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/BookDetailsResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/BookDetailsResourceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/CategoryResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/CategoryResourceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/RatingResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resourcesHandlers/RatingResourceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="4cb38167-683a-45b3-9aab-58bf1fbd0de0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +38,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="251">
               <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,9 +140,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="586" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="239" />
+    <option name="y" value="70" />
     <option name="width" value="834" />
     <option name="height" value="745" />
   </component>
@@ -466,7 +434,7 @@
       <workItem from="1554570733200" duration="6000" />
       <workItem from="1554570904210" duration="3356000" />
       <workItem from="1554575446201" duration="189000" />
-      <workItem from="1554575664155" duration="3253000" />
+      <workItem from="1554575664155" duration="3509000" />
     </task>
     <servers />
   </component>
@@ -503,11 +471,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59152000" />
+    <option name="totallyTimeSpent" value="59408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="68" width="834" height="745" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -520,11 +487,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34094617" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33601287" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.54909563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214826" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -907,7 +874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="251">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
