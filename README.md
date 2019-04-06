@@ -19,31 +19,31 @@ App framework that was used is Java EE. To design RESTFul convention for endpoin
 Testing libraries is JUnit.
 
 
-## Design Patterns used and why they were used
-Design pattern used in this project is singleton. It is used twice: in Deserialize class, so that programm deserialize objects only once ang paraller requests see the same data and in InstanceMaker class used in tests.
+## Design Patterns used
+Design pattern used in this project is singleton. It is used twice: in Deserialize class, so that programm deserialize objects only once and paraller requests see the same data. It was used also in InstanceMaker class used in tests.
 
 
-##Running application
+## Running application
 
-###To build project and run tests use following command:
+### To build project and run tests use following command:
 ```
 mvn clean package
 ```
 
-###To run code from existing jar:
+### To run code from existing jar:
 ```
-java -jar BookLibraryApp.jar.jar arg
+java -jar BookLibraryApp.jar arg
 ```
-where arg is *.json file path or Google Books APIs URI, for example: https://www.googleapis.com/books/v1/volumes?q=java&maxResults=40. Programm will recognize if it is URL or file (it allows switching the dataset from the commandline).
+where arg is *.json file path or Google Books APIs URI (for example: https://www.googleapis.com/books/v1/volumes?q=java&maxResults=40 .) Programm will recognize if it is URL or filepath (it allows switching the dataset from the commandline).
 App is running on port 8000.
-Jar file path: in ./out/artifacts/BookLibraryApp_jar/BookLibraryApp.jar. It was copied also to ./ directory.
+Jar file path: ./out/artifacts/BookLibraryApp_jar/BookLibraryApp.jar. It was copied also to ./ directory.
 
 
-###To generate javadocs:
+### To generate javadocs:
 ```
 mvn javadoc:javadoc
 ```
-Wygenerowane javadocki znajdują się w pliku: target/site/apidocs
+Generated javadocs are placed in: target/site/apidocs
 
 
 
