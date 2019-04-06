@@ -131,10 +131,19 @@ public class BookToSerialize {
         try {
             if(publishedDate!=null) {
                 SimpleDateFormat dateFormat;
-                if (publishedDate.contains("-"))
-                    dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-                else
-                    dateFormat = new SimpleDateFormat("yyyy");
+                String[] splited = publishedDate.split("-");
+                if (splited.length==3){
+                    if(splited[0].length()==4)
+                        dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                    else
+                        dateFormat = new SimpleDateFormat("MM-dd-yyyy");
+                }
+                else {
+                    if (splited.length == 1)
+                        dateFormat = new SimpleDateFormat("yyyy");
+                    else
+                        dateFormat = new SimpleDateFormat("yyyy-MM");
+                }
 
                 Date date = null;
                 date = dateFormat.parse(publishedDate);

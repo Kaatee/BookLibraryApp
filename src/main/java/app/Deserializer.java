@@ -5,8 +5,10 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import model.BookToDeserialize;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.charset.StandardCharsets;
 
 public class Deserializer {
     private static Deserializer instance;
@@ -24,7 +26,21 @@ public class Deserializer {
 
             instance.mapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             instance.mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-            instance.booksList = mapper.readValue(new File(instance.path), BookToDeserialize.class);
+
+            boolean isValid =false;
+            try
+            {
+                URL url = new URL(path);
+                url.toURI();
+                isValid = true;
+                System.out.println("Jest sciezka");
+            } catch (Exception exception){
+            }
+
+            if(isValid)
+                instance.booksList = mapper.readValue(new URL(path), BookToDeserialize.class);
+            else
+                instance.booksList = mapper.readValue(new File(instance.path), BookToDeserialize.class);
         }
 
         return instance;
