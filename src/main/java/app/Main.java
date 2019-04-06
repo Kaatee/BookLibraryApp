@@ -21,7 +21,9 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
         //PATH = "C:\\Users\\Kasia\\Desktop\\BookLibraryApp\\BookLibraryApp\\src\\main\\java\\app\\books.json";
-        PATH="https://www.googleapis.com/books/v1/volumes?q=java&maxResults=40";
+        //PATH="https://www.googleapis.com/books/v1/volumes?q=java&maxResults=40";
+
+        PATH = args[0];
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8000).build();
         ResourceConfig config = new ResourceConfig(BookDetailsResource.class, CategoryResource.class, RatingResource.class);
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);

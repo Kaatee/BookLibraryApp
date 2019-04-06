@@ -39,7 +39,6 @@ public class Deserializer {
                 URL url = new URL(path);
                 url.toURI();
                 isValid = true;
-                System.out.println("Jest sciezka");
             } catch (Exception exception){
             }
 
