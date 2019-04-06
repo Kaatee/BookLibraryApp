@@ -13,6 +13,7 @@ import java.net.URI;
 
 public class Main {
     public static String PATH;
+
     /**
      * Main class of program. Runs server
      * @param args

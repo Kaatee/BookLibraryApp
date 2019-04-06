@@ -6,9 +6,7 @@ import model.Book;
 import model.BookToDeserialize;
 import model.RatingToSerialize;
 import model.VolumeInfo;
-import org.json.JSONException;
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -22,6 +20,10 @@ public class RatingResource {
     private BookToDeserialize booksList;
 
 
+    /**
+     * handle http://localhost:8000/rating request
+     * @return application/json that is display on screen
+     */
     @GET
     @Produces("application/json")
     public Response getAuthorsRating() {

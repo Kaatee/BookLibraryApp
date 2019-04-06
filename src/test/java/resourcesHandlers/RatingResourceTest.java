@@ -27,12 +27,16 @@ public class RatingResourceTest {
     private WebTarget target;
     private String excepted;
 
+    /**
+     * prepare RatingResources tests
+     * @throws Exception
+     */
     @Before
     public void setUp() throws Exception {
-        String path = new File("").getAbsolutePath() + "\\src\\test\\java\\app\\booksTest.json";
+        String path = new File("").getAbsolutePath() + Const.RELATIVE_PATH;
         Deserializer.getInstance(path);
 
-        URI baseUri = UriBuilder.fromUri("http://localhost/").port(8081).build();
+        URI baseUri = UriBuilder.fromUri(Const.URI_LOCALHOST).port(8081).build();
         ResourceConfig rc = new ResourceConfig(RatingResource.class);
         server = GrizzlyHttpServerFactory.createHttpServer(baseUri, rc);
         server.start();
@@ -42,13 +46,16 @@ public class RatingResourceTest {
     }
 
 
+    /**
+     * test http://localhost:8000/rating request
+     */
     @Test
     public void getAuthorsRating() {
         excepted = "[{\"author\":\"Bruce Eckel\",\"averageRating\":3.75}," +
                 "{\"author\":\"Gary Cornell\",\"averageRating\":3.0}," +
                 "{\"author\":\"Cay S. Horstmann\",\"averageRating\":3.0}]";
 
-        Invocation.Builder invocationBuilder = target.request("application/json");
+        Invocation.Builder invocationBuilder = target.request(Const.APPLICATION_JSON);
         invocationBuilder.header("some-header", "true");
         Response response = invocationBuilder.get();
 
@@ -58,6 +65,9 @@ public class RatingResourceTest {
         server.stop();
     }
 
+    /**
+     * test sum() function - function that sum values of two arrays
+     */
     @Test
     public void sum() {
         RatingResource authorsRatingHandler = new RatingResource();
@@ -78,6 +88,10 @@ public class RatingResourceTest {
     }
 
 
+    /**
+     * tear down after tests
+     * @throws Exception
+     */
     @After
     public void tearDown() throws Exception {
         des.deleteInstance();

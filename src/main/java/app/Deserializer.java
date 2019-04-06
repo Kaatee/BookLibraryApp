@@ -20,6 +20,12 @@ public class Deserializer {
         this.path = path;
     }
 
+    /**
+     * @param path
+     * @return Deserializer instance with deserialized JSON objects.
+     * Check if given path is URL or file
+     * @throws IOException
+     */
     public static synchronized Deserializer getInstance(String path) throws IOException {
         if (instance == null) {
             instance = new Deserializer(path);
@@ -47,18 +53,30 @@ public class Deserializer {
     }
 
 
+    /**
+     * @return booksList
+     */
     public static BookToDeserialize getBooksList() {
         return booksList;
     }
 
+    /**
+     * @param booksList
+     */
     private static void setBooksList(BookToDeserialize booksList) {
         Deserializer.booksList = booksList;
     }
 
+    /**
+     *
+     */
     public static void deleteInstance() {
         Deserializer.instance = null;
     }
 
+    /**
+     * @return getMapper
+     */
     public static ObjectMapper getMapper() {
         return mapper;
     }

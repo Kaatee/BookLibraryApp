@@ -2,14 +2,16 @@ package app;
 
 import model.*;
 
-import java.awt.*;
-
 public class InstanceMaker {
     private static InstanceMaker instance;
     private static Book[] exceptedBooksList;
 
     private InstanceMaker(){}
 
+    /**
+     * prepare tests instances for deserializer
+     * @return
+     */
     public static synchronized InstanceMaker getInstance(){
         if(instance==null) {
             instance = new InstanceMaker();
@@ -68,6 +70,9 @@ public class InstanceMaker {
     }
 
 
+    /**
+     * @return exceptedBooksList
+     */
     public static Book[] getExceptedBooksList() {
         return exceptedBooksList;
     }

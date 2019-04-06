@@ -20,6 +20,11 @@ public class CategoryResource {
     private Deserializer deserializer;
     private BookToDeserialize booksList;
 
+    /**
+     * handle http://localhost:8000/rating request
+     * @param categoryName
+     * @return application/json that is display on screen
+     */
     @GET
     @Produces("application/json")
     public Response getCategoryBooks(@PathParam("categoryName") String categoryName) {

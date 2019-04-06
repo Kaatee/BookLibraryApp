@@ -19,9 +19,9 @@ public class BookDetailsResource {
     private BookToDeserialize booksList;
 
     /**
-     * Handle "/book/{isbn}" request
+     * handle "/book/{isbn}" request
      * @param isbn
-     * @return
+     * @return application/json that is display on screen
      */
     @GET
     @Produces("application/json")

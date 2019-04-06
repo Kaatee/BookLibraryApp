@@ -1,6 +1,7 @@
 package resourcesHandlers;
 
 
+import app.Const;
 import app.Deserializer;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -27,12 +28,16 @@ public class CategoryResourceTest {
     private WebTarget target;
     private String excepted;
 
+    /**
+     * prepare CategoryResource tests
+     * @throws Exception
+     */
     @Before
     public void setUp() throws Exception {
-        String path = new File("").getAbsolutePath() + "\\src\\test\\java\\app\\booksTest.json";
+        String path = new File("").getAbsolutePath() + Const.RELATIVE_PATH;
         Deserializer.getInstance(path);
 
-        URI baseUri = UriBuilder.fromUri("http://localhost/").port(9998).build();
+        URI baseUri = UriBuilder.fromUri(Const.URI_LOCALHOST).port(9998).build();
         ResourceConfig rc = new ResourceConfig(CategoryResource.class);
         server = GrizzlyHttpServerFactory.createHttpServer(baseUri, rc);
         server.start();
@@ -41,12 +46,16 @@ public class CategoryResourceTest {
         target = c.target("http://localhost:9998").register(CategoryResource.class).path("category");
     }
 
+    /**
+     * tests http://localhost:9998/category/{categoryName} request
+     * Check programm when all given books has given category
+     */
     @Test
     public void getExistingCategoryBooks1() {
         excepted = "[{\"isbn\":\"9788324677658\",\"title\":\"Java. Techniki zaawansowane. Wydanie IX\",\"publisher\":\"Helion\",\"publishedDate\":1386543600,\"description\":\"Dziewiąte ...\",\"pageCount\":992,\"thumbnail\":\"http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"pl\",\"previewLink\":\"http://books.google.pl/books?id=mVNjAgAAQBAJ&printsec=frontcover&dq=java&hl=&cd=5&source=gbs_api\",\"averageRating\":3.0,\"authors\":[\"Cay S. Horstmann\",\"Gary Cornell\"],\"categories\":[\"Java\",\"Computers\",\"Test\"]},{\"isbn\":\"0131002872\",\"title\":\"Thinking in Java\",\"publisher\":\"Prentice Hall Professional\",\"publishedDate\":1041375600,\"description\":\"An overview of the programming language's fundamentals covers syntax, initialization, implementation, classes, error handling, objects, applets, multiple threads, projects, and network programming.\",\"pageCount\":1119,\"thumbnail\":\"http://books.google.com/books/content?id=Ql6QgWf6i7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"en\",\"previewLink\":\"http://books.google.pl/books?id=Ql6QgWf6i7cC&printsec=frontcover&dq=java&hl=&cd=7&source=gbs_api\",\"averageRating\":4.0,\"authors\":[\"Bruce Eckel\"],\"categories\":[\"Computers\",\"Java\"]},{\"isbn\":\"9781592432172\",\"title\":\"A Hypervista of the Java Landscape\",\"publisher\":\"InfoStrategist.com\",\"thumbnail\":\"http://books.google.com/books/content?id=7tkN1CYzn2cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"en\",\"previewLink\":\"http://books.google.pl/books?id=7tkN1CYzn2cC&pg=PP1&dq=java&hl=&cd=1&source=gbs_api\",\"averageRating\":3.5,\"authors\":[\"Bruce Eckel\"],\"categories\":[\"Computers\"]}]";
 
         WebTarget isbn1WebTarget = target.path("Computers");
-        Invocation.Builder invocationBuilder = isbn1WebTarget.request("application/json");
+        Invocation.Builder invocationBuilder = isbn1WebTarget.request(Const.APPLICATION_JSON);
         invocationBuilder.header("some-header", "true");
         Response response = invocationBuilder.get();
 
@@ -56,12 +65,16 @@ public class CategoryResourceTest {
         server.stop();
     }
 
+    /**
+     * tests http://localhost:9998/category/{categoryName} request
+     * Check programm when some of given books has given category
+     */
     @Test
     public void getExistingCategoryBooks2() {
         excepted = "[{\"isbn\":\"9788324677658\"," +
                 "\"title\":\"Java. Techniki zaawansowane. Wydanie IX\",\"publisher\":\"Helion\",\"publishedDate\":1386543600,\"description\":\"Dziewiąte ...\",\"pageCount\":992,\"thumbnail\":\"http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"pl\",\"previewLink\":\"http://books.google.pl/books?id=mVNjAgAAQBAJ&printsec=frontcover&dq=java&hl=&cd=5&source=gbs_api\",\"averageRating\":3.0,\"authors\":[\"Cay S. Horstmann\",\"Gary Cornell\"],\"categories\":[\"Java\",\"Computers\",\"Test\"]},{\"isbn\":\"0131002872\",\"title\":\"Thinking in Java\",\"publisher\":\"Prentice Hall Professional\",\"publishedDate\":1041375600,\"description\":\"An overview of the programming language's fundamentals covers syntax, initialization, implementation, classes, error handling, objects, applets, multiple threads, projects, and network programming.\",\"pageCount\":1119,\"thumbnail\":\"http://books.google.com/books/content?id=Ql6QgWf6i7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"en\",\"previewLink\":\"http://books.google.pl/books?id=Ql6QgWf6i7cC&printsec=frontcover&dq=java&hl=&cd=7&source=gbs_api\",\"averageRating\":4.0,\"authors\":[\"Bruce Eckel\"],\"categories\":[\"Computers\",\"Java\"]}]";
         WebTarget isbn1WebTarget = target.path("Java");
-        Invocation.Builder invocationBuilder = isbn1WebTarget.request("application/json");
+        Invocation.Builder invocationBuilder = isbn1WebTarget.request(Const.APPLICATION_JSON);
         invocationBuilder.header("some-header", "true");
         Response response = invocationBuilder.get();
 
@@ -71,12 +84,16 @@ public class CategoryResourceTest {
         server.stop();
     }
 
+    /**
+     * tests http://localhost:9998/category/{categoryName} request
+     * Check programm when any of given books has given category
+     */
     @Test
     public void getNONExistingCategoryBooks() {
         excepted = "[]";
 
         WebTarget isbn1WebTarget = target.path("Abc");
-        Invocation.Builder invocationBuilder = isbn1WebTarget.request("application/json");
+        Invocation.Builder invocationBuilder = isbn1WebTarget.request(Const.APPLICATION_JSON);
         invocationBuilder.header("some-header", "true");
         Response response = invocationBuilder.get();
 
@@ -86,6 +103,10 @@ public class CategoryResourceTest {
         server.stop();
     }
 
+    /**
+     * clean up after tests
+     * @throws Exception
+     */
     @After
     public void tearDown() throws Exception {
         des.deleteInstance();

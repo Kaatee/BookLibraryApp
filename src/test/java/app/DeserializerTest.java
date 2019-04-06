@@ -18,15 +18,22 @@ public class DeserializerTest {
     private Book[] exceptedBooksList;
 
 
+    /**
+     * prepare DeserializerTest
+     */
     @Before
     public void setup(){
         InstanceMaker insMaker = InstanceMaker.getInstance();
         exceptedBooksList = insMaker.getExceptedBooksList();
     }
 
+    /**
+     * tests deserialization
+     * @throws IOException
+     */
     @Test
     public void getInstance() throws IOException{
-        String path = new File("").getAbsolutePath() + "\\src\\test\\java\\app\\booksTest.json";
+        String path = new File("").getAbsolutePath() + Const.RELATIVE_PATH;
         Deserializer des = Deserializer.getInstance(path);
 
         Book[] deserializedBooks = des.getBooksList().getItems();
