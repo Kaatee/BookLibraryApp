@@ -1,4 +1,5 @@
 package app;
 
-public class Const {
+public final class Const {
+    public static final double DELTA = 1e-15;
 }

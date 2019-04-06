@@ -24,7 +24,7 @@ public class RatingResource {
 
     @GET
     @Produces("application/json")
-    public Response getCategoryBooks() {
+    public Response getAuthorsRating() {
         String result = "";
         JSONArray booksToSerialize = new JSONArray();
         Map<String, ArrayList<Double>> authors = new HashMap();

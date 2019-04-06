@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb38167-683a-45b3-9aab-58bf1fbd0de0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/app/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resourcesHandlers/RatingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/app/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app/Const.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CategoryResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/CategoryResource.java">
+      <file leaf-file-name="BookDetailsResourceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="83" />
+            <state relative-caret-position="204">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,45 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RatingResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java">
+      <file leaf-file-name="RatingResourceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/RatingResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RatingToSerialize.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/RatingToSerialize.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding>
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-510">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -115,11 +88,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/resourcesHandlers/BookDetailsResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourcesHandlers/CategoryResource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/RatingToSerialize.java" />
+        <option value="$PROJECT_DIR$/src/test/java/app/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resourcesHandlers/RatingResourceTest.java" />
       </list>
     </option>
   </component>
@@ -242,6 +217,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -274,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in BookLibraryApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="BookLibraryApp" />
@@ -352,18 +328,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DeserializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookLibratyApp" />
+    <configuration name="RatingResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookLibraryApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="resourcesHandlers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="app" />
-      <option name="MAIN_CLASS_NAME" value="app.DeserializerTest" />
+      <option name="PACKAGE_NAME" value="resourcesHandlers" />
+      <option name="MAIN_CLASS_NAME" value="resourcesHandlers.RatingResourceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -415,18 +391,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.DeserializerTest" />
       <item itemvalue="JUnit.BookDetailsResourceTest" />
       <item itemvalue="JUnit.CategoryResourceTest" />
       <item itemvalue="JUnit.All in BookLibraryApp" />
+      <item itemvalue="JUnit.RatingResourceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in BookLibraryApp" />
-        <item itemvalue="JUnit.BookDetailsResourceTest" />
+        <item itemvalue="JUnit.RatingResourceTest" />
         <item itemvalue="JUnit.CategoryResourceTest" />
-        <item itemvalue="JUnit.DeserializerTest" />
+        <item itemvalue="JUnit.BookDetailsResourceTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -445,48 +421,47 @@
       <workItem from="1554446081125" duration="13807000" />
       <workItem from="1554472011606" duration="3953000" />
       <workItem from="1554491711165" duration="1829000" />
-      <workItem from="1554540800682" duration="4338000" />
+      <workItem from="1554540800682" duration="6376000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CategoryResourceTest - 2019.04.06 at 11h 25m 18s.xml">
-      <configuration name="CategoryResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 23m 35s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CategoryResourceTest - 2019.04.06 at 11h 26m 01s.xml">
-      <configuration name="CategoryResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 24m 51s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CategoryResourceTest - 2019.04.06 at 11h 26m 10s.xml">
-      <configuration name="CategoryResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 24m 58s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CategoryResourceTest - 2019.04.06 at 11h 30m 06s.xml">
-      <configuration name="CategoryResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 28m 27s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CategoryResourceTest - 2019.04.06 at 11h 31m 35s.xml">
-      <configuration name="CategoryResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 29m 42s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookDetailsResourceTest - 2019.04.06 at 11h 31m 44s.xml">
-      <configuration name="BookDetailsResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 33m 34s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookDetailsResourceTest - 2019.04.06 at 11h 32m 29s.xml">
-      <configuration name="BookDetailsResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 34m 15s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookDetailsResourceTest - 2019.04.06 at 11h 34m 29s.xml">
-      <configuration name="BookDetailsResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 34m 32s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookDetailsResourceTest - 2019.04.06 at 11h 34m 48s.xml">
-      <configuration name="BookDetailsResourceTest" configurationId="JUnit" />
+    <history-entry file="RatingResourceTest - 2019.04.06 at 12h 35m 01s.xml">
+      <configuration name="RatingResourceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_BookLibraryApp - 2019.04.06 at 11h 35m 27s.xml">
+    <history-entry file="All_in_BookLibraryApp - 2019.04.06 at 12h 37m 06s.xml">
       <configuration name="All in BookLibraryApp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34394000" />
+    <option name="totallyTimeSpent" value="36432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,7 +474,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3488746" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60771704" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -533,13 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/BookToSerialize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -813,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/BookDetailsResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -844,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/app/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/app/booksTest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -870,37 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="61" column="71" lean-forward="true" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/CategoryResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -924,13 +851,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/app/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/RatingResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="391">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resourcesHandlers/CategoryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/CategoryResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/BookDetailsResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resourcesHandlers/RatingResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
