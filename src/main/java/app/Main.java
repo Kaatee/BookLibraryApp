@@ -4,6 +4,7 @@ import resourcesHandlers.BookDetailsResource;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
+import resourcesHandlers.CategoryResource;
 
 import javax.ws.rs.core.UriBuilder;
 import java.io.IOException;
@@ -19,7 +20,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         PATH = "C:\\Users\\Kasia\\Desktop\\BookLibraryApp\\BookLibraryApp\\src\\main\\java\\app\\books.json";
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8000).build();
-        ResourceConfig config = new ResourceConfig(BookDetailsResource.class);
+        ResourceConfig config = new ResourceConfig(BookDetailsResource.class, CategoryResource.class);
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
         try {
             httpServer.start();
