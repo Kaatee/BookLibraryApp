@@ -18,6 +18,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriBuilder;
 import java.io.File;
+import java.io.IOException;
 import java.net.URI;
 
 import static org.junit.Assert.assertEquals;
@@ -45,7 +46,7 @@ public class BookDetailsResourceTest {
     }
 
     @Test
-    public void getExistingBookByISBN() {
+    public void getExistingBookByISBN1() {
         excepted = "{\"isbn\":\"9788324677658\",\"title\":\"Java. Techniki zaawansowane. Wydanie IX\",\"publisher\":\"Helion\",\"publishedDate\":1386543600,\"description\":\"Dziewiąte ...\",\"pageCount\":992,\"thumbnail\":\"http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\",\"language\":\"pl\",\"previewLink\":\"http://books.google.pl/books?id=mVNjAgAAQBAJ&printsec=frontcover&dq=java&hl=&cd=5&source=gbs_api\",\"averageRating\":3.0,\"authors\":[\"Cay S. Horstmann\",\"Gary Cornell\"],\"categories\":[\"Java\",\"Computers\",\"Test\"]}";
 
         WebTarget isbn1WebTarget = target.path("9788324677658");
