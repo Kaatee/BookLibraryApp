@@ -1,0 +1,14 @@
+model\RatingToSerialize.class
+model\BookToDeserialize.class
+app\Main.class
+model\BookToSerialize.class
+model\VolumeInfo.class
+resourcesHandlers\BookDetailsResource.class
+resourcesHandlers\RatingResource$1.class
+model\Book.class
+app\Constants.class
+resourcesHandlers\RatingResource.class
+model\ImageLinks.class
+resourcesHandlers\CategoryResource.class
+model\IndustryIdentifiers.class
+app\Deserializer.class

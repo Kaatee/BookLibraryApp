@@ -1,0 +1,6 @@
+resourcesHandlers\RatingResourceTest.class
+app\Const.class
+resourcesHandlers\BookDetailsResourceTest.class
+resourcesHandlers\CategoryResourceTest.class
+app\DeserializerTest.class
+app\InstanceMaker.class

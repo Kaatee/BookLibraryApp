@@ -42,16 +42,16 @@ public class RatingResource {
 
                     ArrayList<String> authTmp;
                     if (book.getAuthors() != null) {
-                        authTmp = new ArrayList<>(Arrays.asList(book.getAuthors()));
+                        authTmp = new ArrayList<String>(Arrays.asList(book.getAuthors()));
                     } else {
-                        authTmp = new ArrayList<>();
+                        authTmp = new ArrayList<String>();
                     }
 
                     double avgRatio = book.getAverageRating();
                     if (avgRatio != 0.0) {
                         for (String author : authTmp) {
                             if (!authors.containsKey(author)) {
-                                ArrayList<Double> newList = new ArrayList<>();
+                                ArrayList<Double> newList = new ArrayList<Double>();
                                 newList.add(avgRatio);
                                 authors.put(author, newList);
                             } else {

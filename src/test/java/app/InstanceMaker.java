@@ -21,7 +21,7 @@ public class InstanceMaker {
             ImageLinks imageLinks1 = new ImageLinks("http://books.google.com/books/content?id=mVNjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api");
             String[] authors1 = {"Cay S. Horstmann", "Gary Cornell"};
             String[] categories1 = {"Java", "Computers", "Test"};
-            VolumeInfo vi1 = new VolumeInfo("Java. Techniki zaawansowane. Wydanie IX", null, "Helion", "2013-12-09", "Dziewiąte ...",
+            VolumeInfo vi1 = new VolumeInfo("Java. Techniki zaawansowane. Wydanie IX", null, "Helion", "2013-12-09", "XYZ...",
                     indIdenList1, 992, imageLinks1, "pl", "http://books.google.pl/books?id=mVNjAgAAQBAJ&printsec=frontcover&dq=java&hl=&cd=5&source=gbs_api",
                     3.0, authors1, categories1);
             Book book1 = new Book(vi1);
